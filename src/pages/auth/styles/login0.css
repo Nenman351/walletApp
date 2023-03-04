@@ -1,0 +1,81 @@
+.page1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.rightside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page1Image {
+  width: 100%;
+  height: auto;
+}
+
+.welcome {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+
+.log {
+  margin-bottom: 7vh;
+}
+
+.down {
+  display: flex;
+  width: 42%;
+  justify-content: space-between;
+}
+
+.remember-div,
+.forgot-div {
+  display: flex;
+  align-items: center;
+  margin-left: -9px;
+}
+
+.p1-img2 {
+  height: 12px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin-top: 20px;
+}
+
+.acct {
+  color: grey;
+}
+
+.signup {
+  text-decoration: underline;
+}
+
+.reset{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+  font-size: 120%;
+  font-weight: 600;
+}
+
+
+.image{
+  display: flex;
+  margin-bottom: 50%;
+  width: 65%;
+  margin-left: 19%;
+}
+
+@media only screen and (max-width: 500px) {
+  .leftside{
+    display: none;
+  } 
+}

@@ -1,0 +1,47 @@
+.otp-input{
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.otp-input2{
+    border-width: 1px;
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+    border-radius: 6px;
+}
+
+.otp-div{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.otp-input::placeholder{
+    color: #55229e;
+    font-weight: 70%;
+    font-size: 250%;
+}
+
+.otp-input2::placeholder{
+    color: #55229e;
+    font-weight: 100%;
+    font-size: 700%;
+}
+
+.image-two{
+    display: flex;
+    margin-bottom: 30%;
+    width: 65%;
+    margin-left: 19%;
+}
+
+.text-{
+    font-size: 900;
+    font-weight: 750;
+    margin-bottom: 3%;
+}
+
