@@ -33,7 +33,7 @@ function CompleteRegTwo(){
                 </div>
                 <TextInput placeholder="BVN"/>
                 <LoginButton>Continue</LoginButton>
-                <a href="" className="prev">prev</a>
+                <a href={"/registration"} className="prev">prev</a>
             </RightHalf>
         </div>
     )

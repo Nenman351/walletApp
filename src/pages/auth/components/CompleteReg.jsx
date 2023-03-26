@@ -36,9 +36,7 @@ function CompleteReg() {
         <TextInput placeholder="Card Number" />
         <TextInput placeholder="Expiry Date" />
         <TextInput placeholder="cvv" />
-        <a href="" className="next">
-          Next
-        </a>
+        <a href={"/reg"} className="next">Next</a>
       </div>
     </div>
   );

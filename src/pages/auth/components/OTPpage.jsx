@@ -1,6 +1,6 @@
 import "../styles/otp.css";
-import "../styles/login0.css"
-import image from "../../../assets/images/svg/OTPInputImage.svg"
+import "../styles/login0.css";
+import image from "../../../assets/images/svg/OTPInputImage.svg";
 import { LoginButton } from "../styles/auth.styled";
 
  function OTP(){
@@ -12,10 +12,10 @@ import { LoginButton } from "../styles/auth.styled";
             <div className="rightside">
                 <p className="log">Enter your OTP number</p>
                 <div className="otp-div">
-                    <input type="text"  className="otp-input" placeholder="-"/>
-                    <input type="text"  className="otp-input" placeholder="-"/>
-                    <input type="text"  className="otp-input" placeholder="-"/>
-                    <input type="text"  className="otp-input" placeholder="-"/>
+                    <input type="text"  className="otp-input2" placeholder="-"/>
+                    <input type="text"  className="otp-input2" placeholder="-"/>
+                    <input type="text"  className="otp-input2" placeholder="-"/>
+                    <input type="text"  className="otp-input2" placeholder="-"/>
                 </div>
                 <LoginButton>Continue</LoginButton>
             </div>

@@ -27,7 +27,7 @@ function Login0() {
         <LoginButton>Login</LoginButton>
         <div className="sign-up">
           <p className="acct">Don't have an Account?</p>
-          <a href="" className="signup">
+          <a href={"/signup"} className="signup">
             Sign Up
           </a>
         </div>

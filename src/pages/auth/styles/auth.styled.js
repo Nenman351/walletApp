@@ -32,8 +32,6 @@ export const RightHalf = styled.div`
 
 export const Container = styled.div`
     dislpay: grid;
-    grid-template-columns: 50% 50%;
-    height: inherit;
 ` 
 
 export const LeftHalf = styled.div`
@@ -49,4 +47,7 @@ width: 100%;
 export const Image = styled.img`
     width:100%;
     height:auto;
+`
+
+export const button = styled.div`
 `

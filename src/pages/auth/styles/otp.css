@@ -22,14 +22,14 @@
 
 .otp-input::placeholder{
     color: #55229e;
-    font-weight: 70%;
-    font-size: 250%;
+    /* font-weight: 90%; */
+    font-size: 700%;
 }
 
 .otp-input2::placeholder{
     color: #55229e;
     font-weight: 100%;
-    font-size: 700%;
+    font-size: 800px;
 }
 
 .image-two{
