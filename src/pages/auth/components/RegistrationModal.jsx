@@ -23,17 +23,17 @@ function RegistrationModal() {
           <div className="kyc">
             <p className="bvn">Next of kin</p>
           </div>
-          <TextInput placeholder="Full Name" />
-          <TextInput placeholder="Email Address" />
-          <TextInput placeholder="Phone Number" />
-          <TextInput placeholder="Relationship" />
+          <TextInput type="text" placeholder="Full Name" />
+          <TextInput type="email" placeholder="Email Address" />
+          <TextInput type="tel" placeholder="Phone Number" />
+          <TextInput type="text" placeholder="Relationship" />
           <div className="hr">
             <hr />
           </div>
           <div className="kyc">
             <p className="bvn">BVN</p>
           </div>
-          <TextInput placeholder="BVN" />
+          <TextInput type="number" placeholder="BVN" />
           <LoginButton
             onClick={() => {
               setShow(!show);
@@ -46,10 +46,17 @@ function RegistrationModal() {
           </a>
         </RightHalf>
       </div>
-      <div className="modalcontainer" style={{display: show ? "block" : "none"}}>
+      <div
+        className="modalcontainer"
+        style={{ display: show ? "block" : "none" }}
+      >
         <div className="content">
-            <TextInput>Drivers Licence</TextInput>
-            <TextInput>Voters card</TextInput>
+          <select>
+            <option>Drivers Licence</option>
+            <option value="">Voters card</option>
+          </select>
+          {/* <TextInput value={"Drivers Licence"} />
+          <TextInput value={"Voters card"} /> */}
         </div>
       </div>
     </div>
